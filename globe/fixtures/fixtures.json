@@ -1,0 +1,170 @@
+[
+  {
+    "model": "globe.country",
+    "pk": 1,
+    "fields": {
+      "code": "UZ",
+      "name_ru": "Узбекистан",
+      "name_uz": "Oʻzbekiston",
+      "name_qr": "Ózbekstan",
+      "latitude": 41.3775,
+      "longitude": 64.5853
+    }
+  },
+  {
+    "model": "globe.country",
+    "pk": 2,
+    "fields": {
+      "code": "RU",
+      "name_ru": "Россия",
+      "name_uz": "Rossiya",
+      "name_qr": "Rossiya",
+      "latitude": 61.524,
+      "longitude": 105.3188
+    }
+  },
+  {
+    "model": "globe.country",
+    "pk": 3,
+    "fields": {
+      "code": "JP",
+      "name_ru": "Япония",
+      "name_uz": "Yaponiya",
+      "name_qr": "Yaponiya",
+      "latitude": 36.2048,
+      "longitude": 138.2529
+    }
+  },
+  {
+    "model": "globe.country",
+    "pk": 4,
+    "fields": {
+      "code": "US",
+      "name_ru": "США",
+      "name_uz": "Amerika Qoʻshma Shtatlari",
+      "name_qr": "Amerika Qurama Shtatları",
+      "latitude": 39.8283,
+      "longitude": -98.5795
+    }
+  },
+  {
+    "model": "globe.city",
+    "pk": 1,
+    "fields": {
+      "country": 1,
+      "latitude": 41.2995,
+      "longitude": 69.2401,
+      "population": 3000000,
+      "is_capital": true,
+      "name_ru": "Ташкент",
+      "name_uz": "Toshkent",
+      "name_qr": "Tashkent",
+      "description_ru": "Ташкент — столица Узбекистана и крупнейший город Центральной Азии. Он лежит в предгорьях Западного Тянь-Шаня, на реке Чирчик, на пересечении древних торговых путей. Сегодня это административный, финансовый и научный центр страны: здесь расположены правительство, крупнейшие банки, университеты и большинство национальных компаний.",
+      "description_uz": "Toshkent — Oʻzbekistonning poytaxti va Markaziy Osiyodagi eng yirik shahar. U Gʻarbiy Tyan-Shan togʻ etaklarida, Chirchiq daryosi boʻyida, qadimiy savdo yoʻllari kesishgan joyda joylashgan. Bugungi kunda bu mamlakatning maʼmuriy, moliyaviy va ilmiy markazi: bu yerda hukumat, yirik banklar, universitetlar va koʻpchilik milliy kompaniyalar joylashgan.",
+      "description_qr": "Tashkent — Ózbekstannıń paytaxtı hám Orta Aziyadaǵı eń úlken qala. Ol Batıs Tyan-Shan taw etegindegi, Shırshıq dáryasınıń boyında, áyyemgi sawda jolları kesilisken jerde jaylasqan. Búgingi kúnde ol eldiń ákimshilik, finans hám ilim orayı: bul jerde húkimet, iri bankler, universitetler hám kóplegen milliy kompaniyalar jaylasqan.",
+      "history_ru": "Древность и Средневековье — Город известен как Чач, а затем как Шаш: он стоял на ответвлениях Великого шёлкового пути и славился ремёслами и торговлей.\n1865 — Ташкент занят российскими войсками под командованием генерала Михаила Черняева; позднее город становится центром Туркестанского генерал-губернаторства.\n1930 — Столица Узбекской ССР переносится из Самарканда в Ташкент.\nЯнварь 1966 — Подписана Ташкентская декларация об урегулировании конфликта между Индией и Пакистаном.\n26 апреля 1966 — Мощное землетрясение разрушает значительную часть центра; отстраивать Ташкент помогают все республики СССР.\n1991 — Узбекистан обретает независимость, Ташкент становится столицей суверенного государства.",
+      "history_uz": "Qadimgi davr va oʻrta asrlar — Shahar Choch, keyinroq Shosh nomi bilan mashhur boʻlgan: u Buyuk ipak yoʻlining tarmoqlarida joylashib, hunarmandchilik va savdosi bilan dovruq qozongan.\n1865 — Toshkentni general Mixail Chernyaev boshchiligidagi Rossiya qoʻshinlari egalladi; keyinchalik shahar Turkiston general-gubernatorligining markaziga aylandi.\n1930 — Oʻzbekiston SSR poytaxti Samarqanddan Toshkentga koʻchirildi.\n1966-yil yanvar — Hindiston va Pokiston oʻrtasidagi mojaroni tinch yoʻl bilan hal etish boʻyicha Toshkent deklaratsiyasi imzolandi.\n1966-yil 26-aprel — Kuchli zilzila shahar markazining katta qismini vayron qildi; Toshkentni qayta qurishda SSSRning barcha respublikalari yordam berdi.\n1991 — Oʻzbekiston mustaqillikka erishdi, Toshkent mustaqil davlatning poytaxtiga aylandi.",
+      "history_qr": "Áyyemgi dáwir hám orta ásirler — Qala dáslep Chach, keyinirek Shash atı menen belgili bolǵan: ol Ullı Jipek jolınıń tarmaqlarında jaylasıp, ónermentshilik hám sawdası menen dańqı shıqqan.\n1865 — Tashkentti general Mixail Chernyaev basshılıǵındaǵı Rossiya áskerleri iyeledi; keyin qala Túrkstan general-gubernatorlıǵınıń orayına aylandı.\n1930 — Ózbekstan SSR-diń paytaxtı Samarqandtan Tashkentke kóshirildi.\n1966-jıl yanvar — Hindstan menen Pákstan arasındaǵı ziddiyattı tınıshlıqta sheshiw haqqındaǵı Tashkent deklaraciyası imzalandı.\n1966-jıl 26-aprel — Kúshli jer silkiniwi qala orayınıń úlken bólegin buzdı; Tashkentti qayta qurıwǵa SSSR-diń barlıq respublikaları járdem berdi.\n1991 — Ózbekstan óz aldına ǵárezsizlikke eristi, Tashkent ǵárezsiz mámleketiniń paytaxtına aylandı.",
+      "industry_ru": "Ташкентское авиационное производственное объединение — Один из старейших авиазаводов на постсоветском пространстве; в советское время выпускал транспортные самолёты Ил-76.\nUzbekistan Airways — Национальный авиаперевозчик; главный хаб — Ташкентский международный аэропорт.\nArtel — Крупный производитель бытовой техники и электроники со штаб-квартирой в Ташкенте.\nUzum — Финтех- и маркетплейс-экосистема, первый «единорог» Узбекистана.\nУзбекнефтегаз — Государственный нефтегазовый холдинг, управляющий добычей и переработкой углеводородов страны.",
+      "industry_uz": "Toshkent aviatsiya ishlab chiqarish birlashmasi — MDHning eng qadimgi aviazavodlaridan biri; sovet davrida Il-76 yuk samolyotlarini ishlab chiqargan.\nUzbekistan Airways — Milliy aviakompaniya; asosiy tayanch aeroporti — Toshkent xalqaro aeroporti.\nArtel — Maishiy texnika va elektronika ishlab chiqaruvchi yirik kompaniya; bosh ofisi Toshkentda.\nUzum — Fintex va marketplace ekotizimi; mamlakatning birinchi «unicorn» kompaniyasi.\nOʻzbekneftgaz — Mamlakatning uglevodorodlarini qazib olish va qayta ishlashni boshqaradigan davlat neft-gaz xoldingi.",
+      "industry_qr": "Tashkent aviaciya óndiris birlespesi — MDH-nıń eń áyyemgi aviazavodlarınan biri; sovet dáwirinde Il-76 júk ushaqların shıǵarǵan.\nUzbekistan Airways — Milliy aviakompaniya; tiykarǵı tayanısh aeroportı — Tashkent xalıqaralıq aeroportı.\nArtel — Turmıs texnikası hám elektronika shıǵarıwshı iri kompaniya; bas ofisi Tashkentte.\nUzum — Fintex hám marketplace ekosisteması; eldiń birinshi «unicorn» kompaniyası.\nÓzbekneftgaz — Eldegi uglevodorodlardı qazıp alıw hám qayta islewdi basqaratuǵın mámleketlik neft-gaz xoldingi.",
+      "is_published": true
+    }
+  },
+  {
+    "model": "globe.city",
+    "pk": 2,
+    "fields": {
+      "country": 1,
+      "latitude": 42.46,
+      "longitude": 59.6166,
+      "population": 320000,
+      "is_capital": false,
+      "name_ru": "Нукус",
+      "name_uz": "Nukus",
+      "name_qr": "Nókis",
+      "description_ru": "Нукус — столица Республики Каракалпакстан в составе Узбекистана. Город стоит на правом берегу Амударьи, у края пустыни Кызылкум. Это административный, культурный и научный центр региона, известный всему миру музеем имени Игоря Савицкого с уникальной коллекцией русского авангарда и каракалпакского искусства. Отсюда отправляются экспедиции к бывшему порту Муйнак и к высохшему дну Аральского моря.",
+      "description_uz": "Nukus — Oʻzbekiston tarkibidagi Qoraqalpogʻiston Respublikasining poytaxti. Shahar Amudaryoning oʻng qirgʻogʻida, Qizilqum choʻli chekkasida joylashgan. Bu hududning maʼmuriy, madaniy va ilmiy markazi; butun dunyoga Igor Savitskiy nomidagi muzey — rus avangardi va qoraqalpoq sanʼatining noyob toʻplami bilan mashhur. Bu yerdan sobiq Moʻynoq porti va Orol dengizining qurigan tubiga ekspeditsiyalar yoʻlga chiqadi.",
+      "description_qr": "Nókis — Ózbekstan quramındaǵı Qaraqalpaqstan Respublikasınıń paytaxtı. Qala Ámiwdáryanıń oń jaǵasında, Qızılqum shóliniń shetinde jaylasqan. Ol aymaqtıń ákimshilik, mádeniy hám ilimiy orayı; pútkil dúnyaǵa Igor Savitskiy atındaǵı muzey — rus avangardı hám qaraqalpaq kórkem ónerdiń ózgeshe toplamı menen belgili. Bul jerden burınǵı Moynaq portına hám Aral teńiziniń qurıp qalǵan tubine ekspediciyalar jolǵa shıǵadı.",
+      "history_ru": "1932 — Нукус получает статус города; к 1950-м годам из небольшого посёлка он превращается в современный советский город с широкими проспектами.\n1960-е — Аральское море начинает стремительно мелеть из-за забора воды Амударьи и Сырдарьи на орошение; экологическая катастрофа затрагивает весь регион.\n1966 — По инициативе Игоря Савицкого в Нукусе открывается музей; его коллекция считается одной из крупнейших в мире собраний русского авангарда.\n1992 — Каракалпакстан получает название и статус Республики Каракалпакстан в составе Узбекистана; Нукус остаётся её столицей.",
+      "history_uz": "1932 — Nukus shahar maqomini oldi; 1950-yillarga kelib kichik posyolkadan keng xiyobonli zamonaviy sovet shahriga aylandi.\n1960-yillar — Amudaryo va Sirdaryo suvlarining sugʻorishga olinishi tufayli Orol dengizi tez qurib bora boshladi; ekologik falokat butun mintaqaga taʼsir qildi.\n1966 — Igor Savitskiy tashabbusi bilan Nukusda muzey ochildi; uning toʻplami rus avangardining dunyodagi eng yirik toʻplamlaridan biri hisoblanadi.\n1992 — Qoraqalpogʻiston Oʻzbekiston tarkibidagi Qoraqalpogʻiston Respublikasi nomi va maqomini oldi; Nukus uning poytaxti boʻlib qoldi.",
+      "history_qr": "1932 — Nókis qala statusın aldı; 1950-jıllarǵa kelip kishi posyolkadan keń kóshelerge iye zamanagóy sovet qalasına aylandı.\n1960-jıllar — Ámiwdárya hám Sırdárya suwınıń suwǵarıwǵa alınıwı sebepli Aral teńizi tez qurıy basladı; ekologiyalıq apat pútkil aymaqqa tásir etti.\n1966 — Igor Savitskiy baslaması menen Nókiste muzey ashıldı; onıń toplamı rus avangardınıń dúnyadaǵı eń iri toplamlarınıń biri delinedi.\n1992 — Qaraqalpaqstan Ózbekstan quramındaǵı Qaraqalpaqstan Respublikası atı hám statusın aldı; Nókis onıń paytaxtı bolıp qaldı.",
+      "industry_ru": "Хлопкопереработка и текстиль — Хлопок остаётся одной из опор экономики региона; в Нукусе работают предприятия первичной переработки хлопка.\nПищевая промышленность — Консервирование и переработка мяса, молока и овощей из дельты Амударьи.\nКунградский содовый завод — Крупное предприятие по выпуску кальцинированной соды в Каракалпакстане (город Кунград), важное звено химической отрасли страны.\nУстюртский газохимический комплекс — Один из крупнейших проектов республики: переработка газа, производство полиэтилена и полипропилена.\nНародные ремёсла — Каракалпакская вышивка и ковроткачество — неотъемлемая часть культурного наследия региона.",
+      "industry_uz": "Paxta tozalash va toʻqimachilik — Paxta mintaqa iqtisodiyotining asosiy tayanchlaridan biri; Nukusda paxtani dastlabki qayta ishlash korxonalari faoliyat yuritadi.\nOziq-ovqat sanoati — Amudaryo deltasida yetishtirilgan mahsulotlarni konservalash hamda goʻsht, sut va sabzavotlarni qayta ishlash.\nQoʻngʻirot soda zavodi — Qoraqalpogʻistondagi (Qoʻngʻirot shahri) kalsinatsiyalangan soda ishlab chiqaruvchi yirik korxona; mamlakat kimyo sanoatining muhim boʻgʻini.\nUstyurt gaz-kimyo majmuasi — Respublikadagi yirik loyihalardan biri: gazni qayta ishlash, polietilen va polipropilen ishlab chiqarish.\nXalq hunarmandchiligi — Qoraqalpoq kashtachiligi va gilamdoʻzligi hududning madaniy merosining ajralmas qismi.",
+      "industry_qr": "Paxta tazalaw hám toqımashılıq — Paxta aymaq ekonomikasınıń tiykarǵı tayanıshlarınan biri; Nókiste paxtanı dáslepki qayta islew kárxanaları isleydi.\nAzıq-awqat ónerkásibi — Ámiwdárya deltasında jetistirilgen ónimlerdi konservalaw hám et, sút, palız ónimlerin qayta islew.\nQońırat soda zavodı — Qaraqalpaqstandaǵı (Qońırat qalası) kalcinaciyalanǵan soda shıǵarıwshı iri kárxana; eldiń ximiya ónerkásibiniń áhmiyetli bólegi.\nUstyurt gaz-ximiya kompleksi — Respublikadaǵı iri joybarlardan biri: gazdi qayta islew, polietilen hám polipropilen shıǵarıw.\nXalıq ónermentshiligi — Qaraqalpaq keste tigiw hám gilem toqıw ónerleri aymaqtıń mádeniy miyrasınıń ajıralmas bólegi.",
+      "is_published": true
+    }
+  },
+  {
+    "model": "globe.city",
+    "pk": 3,
+    "fields": {
+      "country": 2,
+      "latitude": 55.7558,
+      "longitude": 37.6173,
+      "population": 13100000,
+      "is_capital": true,
+      "name_ru": "Москва",
+      "name_uz": "Moskva",
+      "name_qr": "Moskva",
+      "description_ru": "Москва — столица России и один из крупнейших мегаполисов Европы. Город расположен на реке Москве в центре Восточно-Европейской равнины и остаётся политическим, финансовым и транспортным центром страны. Здесь сосредоточены штаб-квартиры крупнейших российских банков, энергетических и технологических компаний, а также ведущие университеты и театры.",
+      "description_uz": "Moskva — Rossiyaning poytaxti va Yevropadagi eng yirik megapolislardan biri. Shahar Moskva daryosi boʻyida, Sharqiy Yevropa tekisligining markazida joylashgan va mamlakatning siyosiy, moliyaviy hamda transport markazi boʻlib qolmoqda. Bu yerda Rossiyaning yirik banklari, energetika va texnologiya kompaniyalarining bosh ofislari, shuningdek yetakchi universitetlar va teatrlar joylashgan.",
+      "description_qr": "Moskva — Rossiyanıń paytaxtı hám Evropadaǵı eń iri megapolislerdiń biri. Qala Moskva dáryasınıń boyında, Shıǵıs Evropa tegisliginiń ortasında jaylasqan hám eldiń siyasiy, finans hám transport orayı bolıp qalmaqta. Bul jerde Rossiyanıń iri bankleri, energetika hám texnologiya kompaniyalarınıń bas ofisleri, sonday-aq jetekshi universitetler hám teatrlar jaylasqan.",
+      "history_ru": "1147 — Москва впервые упоминается в летописи; основание города связывают с князем Юрием Долгоруким.\n1547 — Иван IV венчается на царство в Успенском соборе Кремля и впервые принимает титул царя всея Руси.\n1612 — Народное ополчение Минина и Пожарского освобождает Москву от польско-литовских войск.\n1812 — В сентябре Москву занимает армия Наполеона; в городе вспыхивают масштабные пожары, и французы вынуждены отступить.\n1918 — Правительство Советской России переезжает из Петрограда в Москву, и город снова становится столицей.\n1941–1942 — Битва за Москву: советские войска останавливают наступление вермахта и в декабре 1941 года переходят в контрнаступление.",
+      "history_uz": "1147 — Moskva yilnomalarda birinchi marta tilga olinadi; shaharning tashkil topishi knyaz Yuriy Dolgorukiy nomi bilan bogʻlanadi.\n1547 — Ivan IV Kremlning Uspenskiy soborida podsho boʻlib toj kiydi va birinchi marta «butun Rusning podshosi» unvonini oldi.\n1612 — Minin va Pojarskiy boshchiligidagi xalq lashkari Moskvani polyak-litva qoʻshinlaridan ozod qildi.\n1812 — Sentyabrda Moskvani Napoleon armiyasi egalladi; shaharda katta yongʻinlar boshlanib, fransuzlar chekinishga majbur boʻldi.\n1918 — Sovet Rossiyasi hukumati Petrogradan Moskvaga koʻchdi va shahar yana poytaxtga aylandi.\n1941–1942 — Moskva uchun jang: sovet qoʻshinlari vermaxt hujumini toʻxtatib, 1941-yil dekabrida qarshi hujumga oʻtdi.",
+      "history_qr": "1147 — Moskva jılnamalarda birinshi ret aytıladı; qalanıń tiykarı knyaz Yuriy Dolgorukiy atı menen baylanıstırıladı.\n1547 — Ivan IV Kremldiń Uspenskiy soborında patsha bolıp taj kiydi hám birinshi ret «pútkil Rustıń patshası» ataǵın aldı.\n1612 — Minin hám Pojarskiy basshılıǵındaǵı xalıq qosını Moskvanı polyak-litva áskerlerinen azat etti.\n1812 — Sentyabrde Moskvanı Napoleon armiyası iyeledi; qalada úlken órt shıqtı, francuzlar keri qaytıwǵa májbúr boldı.\n1918 — Sovet Rossiyası húkimeti Petrogradtan Moskvaǵa kóshti hám qala qaytadan paytaxtqa aylandı.\n1941–1942 — Moskva ushın urıs: sovet áskerleri vermaxt hújimin toqtatıp, 1941-jıl dekabrde qarsı hújimge ótti.",
+      "industry_ru": "Сбер — Крупнейший банк страны и технологическая экосистема; штаб-квартира в Москве.\nЯндекс — Поисковая система, такси, карты и другие сервисы; главный офис в Москве.\nРоснефть — Одна из крупнейших нефтяных компаний мира; штаб-квартира в Москве.\nЛУКОЙЛ — Нефтяная компания с главным офисом в центре Москвы.\nАэрофлот — Национальный авиаперевозчик; главный хаб — аэропорт Шереметьево.",
+      "industry_uz": "Sber — Mamlakatning eng yirik banki va texnologik ekotizim; bosh ofisi Moskvada.\nYandeks — Qidiruv tizimi, taksi, xaritalar va boshqa xizmatlar; bosh ofisi Moskvada.\nRosneft — Dunyodagi yirik neft kompaniyalaridan biri; bosh ofisi Moskvada.\nLUKOIL — Moskva markazida bosh ofisi joylashgan neft kompaniyasi.\nAeroflot — Milliy aviatashuvchi; asosiy tayanch aeroporti — Sheremetyevo.",
+      "industry_qr": "Sber — Eldiń eń iri banki hám texnologiyalıq ekosistema; bas ofisi Moskvada.\nYandeks — Izlew sisteması, taksi, kartalar hám basqa xızmetler; bas ofisi Moskvada.\nRosneft — Dúnyadaǵı iri neft kompaniyalarınan biri; bas ofisi Moskvada.\nLUKOIL — Bas ofisi Moskva orayında jaylasqan neft kompaniyası.\nAeroflot — Milliy aviatasıwshı; tiykarǵı tayanısh aeroportı — Sheremetyevo.",
+      "is_published": true
+    }
+  },
+  {
+    "model": "globe.city",
+    "pk": 4,
+    "fields": {
+      "country": 3,
+      "latitude": 35.6762,
+      "longitude": 139.6503,
+      "population": 14000000,
+      "is_capital": true,
+      "name_ru": "Токио",
+      "name_uz": "Tokio",
+      "name_qr": "Tokio",
+      "description_ru": "Токио — столица Японии и крупнейшая городская агломерация мира. Город лежит на берегу Токийского залива на острове Хонсю: здесь соседствуют небоскрёбы делового центра, храмы, парки и кварталы старой застройки. Токио — финансовый, технологический и культурный центр страны, где расположены штаб-квартиры многих крупнейших японских корпораций.",
+      "description_uz": "Tokio — Yaponiyaning poytaxti va dunyodagi eng yirik shahar aglomeratsiyasi. Shahar Xonsyu orolida, Tokio koʻrfazi qirgʻogʻida joylashgan: bu yerda ish markazining osmonoʻpar binolari, ibodatxonalar, bogʻlar va eski mahallalar yonma-yon turadi. Tokio — mamlakatning moliyaviy, texnologik va madaniy markazi, koʻplab yirik yapon korporatsiyalarining bosh ofislari shu yerda joylashgan.",
+      "description_qr": "Tokio — Yaponiyanıń paytaxtı hám dúnyadaǵı eń iri qala aglomeraciyası. Qala Honsyu atawında, Tokio qoltıǵınıń jaǵasında jaylasqan: bul jerde is orayınıń kóp qabatlı imaratları, ibadatxanalar, baǵlar hám eski mahallalar qatar turadı. Tokio — eldiń finans, texnologiya hám mádeniyat orayı, kóplegen iri yapon korporaciyalarınıń bas ofisleri usı jerde jaylasqan.",
+      "history_ru": "1457 — Ота Досэн строит замок Эдо на месте будущего города.\n1603 — Токугава Иэясу учреждает сёгунат в Эдо; город становится политическим центром страны и одним из крупнейших городов мира.\n1868 — Реставрация Мэйдзи: Эдо переименован в Токио («восточная столица»), сюда переезжает императорский двор.\n1923 — Великое землетрясение Канто и последовавшие пожары разрушают значительную часть города.\n1945 — Бомбардировки, особенно налёт 9–10 марта, приводят к огромным разрушениям и гибели десятков тысяч людей.\n1964 — Токио принимает летние Олимпийские игры — символ послевоенного возрождения; к их началу запускается скоростной поезд Токайдо-синкансэн.",
+      "history_uz": "1457 — Ota Dokan boʻlajak shahar oʻrnida Edo qasrini qurdi.\n1603 — Tokugava Ieyasu Edoda syogunat tuzdi; shahar mamlakatning siyosiy markaziga va dunyodagi eng yirik shaharlardan biriga aylandi.\n1868 — Meydzi tiklanishi: Edo Tokio («sharqiy poytaxt») deb qayta nomlandi, imperator saroyi shu yerga koʻchdi.\n1923 — Buyuk Kanto zilzilasi va undan keyingi yongʻinlar shaharning katta qismini vayron qildi.\n1945 — Bombardimonlar, ayniqsa 9–10-mart hujumi, ulkan vayronagarchilik va oʻn minglab insonlar halokatiga sabab boʻldi.\n1964 — Tokio yozgi Olimpiada oʻyinlarini oʻtkazdi — bu urushdan keyingi tiklanish ramzi boʻldi; oʻyinlar arafasida Tokaydo-Shinkansen tezyurar poyezdi ishga tushirildi.",
+      "history_qr": "1457 — Ota Dokan keleshek qala ornında Edo qasrın saldı.\n1603 — Tokugava Ieyasu Edoda syogunat dúzdi; qala eldiń siyasiy orayına hám dúnyadaǵı eń iri qalalardan birine aylandı.\n1868 — Meydzi qayta tiklenwi: Edo Tokio («shıǵıs paytaxtı») dep qayta atalıp, imperator sarayı usı jerge kóshti.\n1923 — Ullı Kanto jer silkiniwi hám onnan keyingi órtler qalanıń úlken bólegin buzdı.\n1945 — Bombalawlar, ásirese 9–10-mart hújimi, úlken buzılıwlarǵa hám on mıńlaǵan adamlardıń qaza tabıwına sebep boldı.\n1964 — Tokio jaz Olimpiada oyınların ótkerdi — bul urıstan keyingi tiklenıwdiń nıshanı boldı; oyınlar aldınan Tokaydo-Shinkansen tez júrer poyızı iske túsirildi.",
+      "industry_ru": "Sony Group — Электроника, игры, музыка и кино; штаб-квартира в районе Минато.\nHonda — Автомобили и мотоциклы; глобальная штаб-квартира в районе Минато.\nHitachi — Промышленное и энергетическое оборудование, ИТ-системы; штаб-квартира в районе Тиёда.\nSoftBank Group — Технологический холдинг и инвестор; штаб-квартира в Токио.\nТокийская фондовая биржа — Одна из крупнейших бирж мира; здесь торгуются акции японских компаний.",
+      "industry_uz": "Sony Group — Elektronika, oʻyinlar, musiqa va kino; bosh ofisi Minato tumanida.\nHonda — Avtomobillar va mototsikllar; global bosh ofisi Minato tumanida.\nHitachi — Sanoat va energetika uskunalari, AT tizimlari; bosh ofisi Chiyoda tumanida.\nSoftBank Group — Texnologik xolding va investor; bosh ofisi Tokioda.\nTokio fond birjasi — Dunyodagi eng yirik birjalardan biri; yapon kompaniyalarining aksiyalari shu yerda savdo qilinadi.",
+      "industry_qr": "Sony Group — Elektronika, oyınlar, muzıka hám kino; bas ofisi Minato rayonında.\nHonda — Avtomobillar hám mototsikller; global bas ofisi Minato rayonında.\nHitachi — Ónerkásip hám energetika úskeneleri, IT sistemaları; bas ofisi Chiyoda rayonında.\nSoftBank Group — Texnologiyalıq xolding hám investor; bas ofisi Tokioda.\nTokio qor birjası — Dúnyadaǵı eń iri birjalardan biri; yapon kompaniyalarınıń akciyaları usı jerde sawda etiledi.",
+      "is_published": true
+    }
+  },
+  {
+    "model": "globe.city",
+    "pk": 5,
+    "fields": {
+      "country": 4,
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "population": 8300000,
+      "is_capital": false,
+      "name_ru": "Нью-Йорк",
+      "name_uz": "Nyu-York",
+      "name_qr": "Nyu-York",
+      "description_ru": "Нью-Йорк — крупнейший город США и один из главных финансовых и культурных центров мира. Он раскинулся на островах и материке в устье реки Гудзон: пять боро — Манхэттен, Бруклин, Куинс, Бронкс и Статен-Айленд — образуют город с населением около 8 миллионов человек. Здесь находятся Уолл-стрит, штаб-квартира ООН и множество музеев, театров и университетов.",
+      "description_uz": "Nyu-York — AQShning eng yirik shahri va dunyodagi asosiy moliyaviy hamda madaniy markazlardan biri. U Gudzon daryosi quyilishida, orollar va materikda joylashgan: besh boro — Manxetten, Bruklin, Kuins, Bronks va Staten-Aylend — taxminan 8 million aholili shaharni tashkil etadi. Bu yerda Uoll-strit, BMT shtab-kvartirasi hamda koʻplab muzeylar, teatrlar va universitetlar joylashgan.",
+      "description_qr": "Nyu-York — AQSh-tıń eń iri qalası hám dúnyadaǵı tiykarǵı finans hám mádeniyat orayınıń biri. Ol Gudzon dáryasınıń quyılısında, atawlarda hám materikte jaylasqan: bes boro — Manxetten, Bruklin, Kuins, Bronks hám Staten-Aylend — shama menen 8 million xalqı bar qalanı payda etedi. Bul jerde Uoll-strit, Birlesken Milletler Shólkeminiń shtab-kvartirası hám kóplegen muzeyler, teatrlar hám universitetler jaylasqan.",
+      "history_ru": "1624–1626 — Голландцы основывают Новый Амстердам на южной оконечности Манхэттена; в 1626 году Питер Минёйт приобретает остров у местных жителей.\n1664 — Англичане занимают колонию и переименовывают её в Нью-Йорк в честь герцога Йоркского.\n1789 — Нью-Йорк становится первой столицей США; Джордж Вашингтон принимает здесь присягу как первый президент.\n1886 — Открывается Статуя Свободы, ставшая символом иммиграции.\n1952 — Завершено строительство штаб-квартиры ООН на берегу Ист-Ривер.\n2001 — Теракты 11 сентября разрушают башни Всемирного торгового центра; на этом месте создан мемориал и построен One World Trade Center.",
+      "history_uz": "1624–1626 — Gollandlar Manxettenning janubiy uchida Yangi Amsterdamga asos soldi; 1626-yilda Piter Minuit orolni mahalliy aholidan sotib oldi.\n1664 — Inglizlar koloniyani egallab, uni York gertsogi sharafiga Nyu-York deb nomladi.\n1789 — Nyu-York AQShning birinchi poytaxti boʻldi; Jorj Vashington shu yerda birinchi prezident sifatida qasamyod qildi.\n1886 — Ozodlik haykali ochildi va immigratsiya ramziga aylandi.\n1952 — Ist-Riverdagi BMT shtab-kvartirasining qurilishi yakunlandi.\n2001 — 11-sentyabr teraktlari Butunjahon savdo markazi minoralarini vayron qildi; ularning oʻrnida yodgorlik barpo etilib, One World Trade Center qurildi.",
+      "history_qr": "1624–1626 — Gollandlar Manxettenniń tústik ushında Jańa Amsterdamǵa tiykar saldı; 1626-jılı Piter Minuit atawdı jergilikli xalıqtan satıp aldı.\n1664 — Inglizler koloniyanı iyelep, onı York gercogı húrmetine Nyu-York dep atadı.\n1789 — Nyu-York AQSh-tıń birinshi paytaxtı boldı; Djordj Vashington bul jerde birinshi prezident retinde qásem etti.\n1886 — Erkinlik háykeli ashıldı hám immigraciya nıshanına aylandı.\n1952 — Ist-Riverdegi Birlesken Milletler Shólkemi shtab-kvartirasınıń qurılısı juwmaqlandı.\n2001 — 11-sentyabr terakti Ulıwma dúnyalıq sawda orayınıń minaraların buzdı; olardıń ornında estelik jaratılıp, One World Trade Center qurıldı.",
+      "industry_ru": "Нью-Йоркская фондовая биржа и Nasdaq — Две крупнейшие в мире биржи по капитализации; штаб-квартиры в Нью-Йорке.\nJPMorgan Chase — Крупнейший банк США по активам; штаб-квартира на Манхэттене.\nGoldman Sachs — Инвестиционный банк; штаб-квартира на Уэст-стрит, 200.\nPfizer — Фармацевтический гигант; штаб-квартира на Манхэттене.\nBloomberg L.P. и The New York Times — Ведущие медиа- и информационные компании; штаб-квартиры в Нью-Йорке.",
+      "industry_uz": "Nyu-York fond birjasi va Nasdaq — Kapitallashuv boʻyicha dunyodagi eng yirik ikki birja; bosh ofislari Nyu-Yorkda.\nJPMorgan Chase — Aktivlar boʻyicha AQShning eng yirik banki; bosh ofisi Manxettenda.\nGoldman Sachs — Investitsiya banki; bosh ofisi Uest-strit, 200 manzilida.\nPfizer — Farmatsevtika giganti; bosh ofisi Manxettenda.\nBloomberg L.P. va The New York Times — Yetakchi media va axborot kompaniyalari; bosh ofislari Nyu-Yorkda.",
+      "industry_qr": "Nyu-York qor birjası hám Nasdaq — Kapitallastırıw boyınsha dúnyadaǵı eń iri eki birja; bas ofisleri Nyu-Yorkta.\nJPMorgan Chase — Aktivler boyınsha AQSh-tıń eń iri banki; bas ofisi Manxettende.\nGoldman Sachs — Investiciya banki; bas ofisi Uest-strit, 200 mánzilinde.\nPfizer — Farmacevtika giganti; bas ofisi Manxettende.\nBloomberg L.P. hám The New York Times — Jetekshi media hám xabar kompaniyaları; bas ofisleri Nyu-Yorkta.",
+      "is_published": true
+    }
+  }
+]
