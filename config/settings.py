@@ -31,7 +31,14 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = "config.urls"
-
+STORAGES = {
+    "default": {
+        "BACKEND": "django.core.files.storage.FileSystemStorage",
+    },
+    "staticfiles": {
+        "BACKEND": "whitenoise.storage.CompressedStaticFilesStorage", # Мягкое сжатие без обязательных манифестов
+    },
+}
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
